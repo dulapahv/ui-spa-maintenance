@@ -11,11 +11,11 @@
   },
   "routes": [
     {
-      "pattern": "dulapahv.dev/maintenance",
+      "pattern": "*.dulapahv.dev/maintenance",
       "zone_name": "dulapahv.dev"
     },
     {
-      "pattern": "dulapahv.dev/maintenance/*",
+      "pattern": "*.dulapahv.dev/maintenance/*",
       "zone_name": "dulapahv.dev"
     }
   ],
