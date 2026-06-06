@@ -134,7 +134,7 @@ h1 {
 }
 
 .lede {
-  max-width: 46ch;
+  max-width: 50ch;
   margin: 0;
   font-size: 1.05rem;
   color: var(--color-foreground-muted);

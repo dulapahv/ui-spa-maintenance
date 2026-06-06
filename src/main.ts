@@ -56,7 +56,7 @@ export const buildMaintenancePage = (): HTMLElement => {
     <div class="logo" role="img" aria-label="DulapahV">${LOGO_SVG}</div>
     <h1 id="maintenance-title">Under maintenance</h1>
     <p class="lede">
-      I'm making some improvements behind the scenes. The site will be back
+      I'm making some improvements behind the scenes.<br />The site will be back
       shortly — thanks for your patience.
     </p>
     <div class="actions">
