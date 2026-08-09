@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Geist";
+  src: url("/fonts/Geist-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --color-mirai-red: oklch(68.8% 0.203 4.94);
   --color-background: oklch(100% 0 0);
@@ -12,8 +20,8 @@
   --grid-dot: oklch(0 0 0 / 8%);
 
   --sans:
-    system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --mono: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+    "Geist", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
 
   font: 18px / 1.5 var(--sans);
   -webkit-font-smoothing: antialiased;
@@ -109,7 +117,7 @@ main#center {
   }
 }
 
-.logo svg {
+.logo {
   display: block;
   width: 64px;
   height: 64px;
